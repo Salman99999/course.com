@@ -1,0 +1,488 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course name</title>
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/b967a10861.js" crossorigin="anonymous"></script>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis&display=swap" rel="stylesheet">
+
+    <!-- Swiper CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>   
+
+    <!-- Owl Carousel -->
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css">
+
+</head>
+<body>
+    <!-- Colors Bar -->
+<div class="container-fluid">
+    <div id="colors-bar">
+        <div class="row">
+            <div class="col color-bar bg-yellow d-none d-lg-block"></div>
+            <div class="col color-bar bg-green d-none d-lg-block"></div>
+            <div class="col color-bar bg-red d-none d-lg-block"></div>
+            <div class="col color-bar bg-blue d-none d-lg-block"></div>
+            <div class="col color-bar bg-purple d-none d-lg-block"></div>
+            <div class="col color-bar bg-pink d-none d-lg-block"></div>
+            <div class="col color-bar bg-yellow"></div>
+            <div class="col color-bar bg-green"></div>
+            <div class="col color-bar bg-red"></div>
+            <div class="col color-bar bg-blue"></div>
+            <div class="col color-bar bg-purple"></div>
+            <div class="col color-bar bg-pink"></div>
+        </div>
+    </div>
+</div>
+
+    <!-- Top Bar -->
+
+    <div id="top-bar" class="bg-stone">
+    <div class="container">
+        <p class="d-none d-sm-block"><i class="fa-solid fa-envelope bg-yellow"></i> <span class="text-white opacity-75">info@yourdomain.com</span></p>
+        <p><i class="fa-solid fa-phone bg-green"></i><span class="opacity-75 text-white">+994 55 123 45 67</span></p>
+        <p><i class="fa-solid fa-location bg-pink"></i> <span class="opacity-75 text-white">Somewhere, 123 </span></p>
+    </div>
+    </div>
+
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg">
+        <div class="container">
+          <a class="navbar-brand" href="#">Logo</a>
+          <div class="toggler-button">
+          <button class="navbar-toggler bg-red" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+            <i class="fa-solid fa-bars"></i>
+          </button>
+        </div>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+            <ul class="navbar-nav ms-lg-auto">
+              <li class="nav-item d-flex">
+                <a class="nav-link active" aria-current="page" href="/"><i class="fa-solid fa-house bg-yellow"></i> Əsas Səhifə</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="/result"><i class="fa-solid fa-file bg-red"></i> Nəticələr</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#features"><i class="fa-solid fa-address-card bg-green"></i> Haqqımızda</a>
+              </li>
+              <li class="nav-item">
+                <a href="#more-info" class="nav-link"><i class="fa-solid fa-phone bg-blue"></i> Əlaqə Saxla</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+
+      <!-- Slide -->
+      <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide"><div class="slides slide-1"><h1>Lorem Ipsum</h1> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt doloremque nisi quo.</p></div></div>
+          <div class="swiper-slide"><div class="slides slide-2"><h1>Lorem Ipsum</h1> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt doloremque nisi quo.</p></div></div>
+          <div class="swiper-slide"><div class="slides slide-3"><h1>Lorem Ipsum</h1> <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Deserunt doloremque nisi quo.</p></div></div>
+        </div>
+      
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <!-- Cards -->
+    <div class="cards-class">
+    <div class="container">
+    <div id="cards">
+      <div class="bg-yellow cards"><i class="far fa-file-alt icon  border-yellow"></i><a href="#courses"><h1>Kurslarımız</h1></a></div>
+      <div class="bg-green cards"><i class="fa-solid fa-graduation-cap icon border-green"></i><a href="#teachers"><h1>Müəllimlerimiz</h1></a></div>
+      <div class="bg-red cards"><i class="fa-solid fa-medal icon border-red"></i><a href="#successful-students"><h1>Uğurlarımız</h1></a></div>
+      <div class="bg-blue cards"><i class="fa-regular fa-file icon border-blue"></i><a href="/result"><h1>Nəticələr</h1></a></div>
+    </div>
+    </div>
+  </div>
+
+    <!-- Features -->
+    <div id="features">
+    <div class="features">
+      <div class="container">
+      <h1>Niyə Biz?</h1>
+      <div class="row">
+        <div class="feature-1 col-lg-3 col-md-3 col-12">
+        <div class="feature bg-yellow"><i class="fa-solid fa-graduation-cap icon"></i></div>
+        <h4>Experienced Teachers</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+        <div class="feature-2 col-lg-3 col-md-3 col-12">
+        <div class="feature bg-green"><i class="fa-solid fa-leaf icon"></i></div>
+        <h4>Physical Activity</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+        <div class="feature-3 col-lg-3 col-md-3 col-12">
+        <div class="feature bg-red"><i class="fa-solid fa-car icon"></i></div>
+        <h4>Transportation</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="feature-4 col-lg-3 col-md-3 col-12">
+        <div class="feature bg-blue"><i class="fa-solid fa-utensils icon"></i></div>
+        <h4>Experienced Teachers</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+        <div class="feature-5 col-lg-3 col-md-3 col-12">
+        <div class="feature bg-purple"><i class="fa-solid fa-heart icon"></i></div>
+        <h4>Physical Activity</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+        <div class="feature-6 col-lg-3 col-md-3 col-12">
+        <div class="feature bg-pink"><i class="fa-solid fa-shield-halved icon"></i></div>
+        <h4>Transportation</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt.</p>
+        </div>
+      </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- More Information -->
+    <div id="more-info">
+    <div class="information">
+      <div class="container">
+      <h3>Əlavə Məlumat Lazımdır?</h3>
+      <p>Aşağıdakı əlaqə saxla düyməsini sıxaraq whatsapp vasitəsilə bizimlə əlaqə saxlaya bilərsiniz!</p>
+      <button class="bg-red" onclick="window.open('https://www.whatsapp.com', '_blank', 'noopener, noreferrer');"><i class="fa-solid fa-phone"></i> <span>ƏLAQƏ SAXLA</span></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Courses -->
+
+<div id="courses">
+  <div class="courses">
+    <div class="container-fluid">
+    <div class="owl-carousel carousel-1">
+      <div class="card col-lg-3 col-md-3 col-12" style="width: 18rem;">
+        <img src="images/courses-img1.jpg" class="card-img-top" alt="">
+        <div class="price bg-purple">$50</div>
+        <div class="line bg-purple"></div>
+        <div class="card-body">
+          <h5 class="card-title english">Tarix</h5>
+          <p class="card-subtitle"><i class="fa-regular fa-calendar"></i> Age 5 to 12 years</p>
+          <p class="card-subtitle"><i class="fa-regular fa-clock"></i> 9.00AM - 12.00AM</p>
+          <p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <a href="www.whatsapp.com" class="btn btn-1"><i class="fa-solid fa-phone"></i> <span>ƏLAQƏ SAXLA</span></a>
+        </div>
+      </div>
+    
+      <div class="card col-lg-3 col-md-3 col-12" style="width: 18rem;">
+        <img src="images/courses-img2.jpg" class="card-img-top" alt="...">
+        <div class="price bg-green">$50</div>
+        <div class="line bg-green"></div>
+        <div class="card-body">
+          <h5 class="card-title azerbaijani">Azərbaycan Dili</h5>
+          <p class="card-subtitle"><i class="fa-regular fa-calendar"></i> Age 5 to 12 years</p>
+          <p class="card-subtitle"><i class="fa-regular fa-clock"></i> 9.00AM - 12.00AM</p>
+          <p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <a href="www.whatsapp.com" class="btn btn-2"><i class="fa-solid fa-phone"></i> <span>ƏLAQƏ SAXLA</span></a>
+        </div>
+      </div>
+    
+      <div class="card col-lg-3 col-md-3 col-12" style="width: 18rem;">
+        <img src="images/courses-img3.jpg" class="card-img-top" alt="...">
+        <div class="price bg-red">$50</div>
+        <div class="line bg-red"></div>
+        <div class="card-body">
+          <h5 class="card-title russian">Coğrafiya</h5>
+          <p class="card-subtitle"><i class="fa-regular fa-calendar"></i> Age 5 to 12 years</p>
+          <p class="card-subtitle"><i class="fa-regular fa-clock"></i> 9.00AM - 12.00AM</p>
+          <p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <a href="www.whatsapp.com" class="btn btn-3"><i class="fa-solid fa-phone"></i> <span>ƏLAQƏ SAXLA</span></a>
+        </div>
+      </div>
+
+      <div class="card col-lg-3 col-xs-12 col-sm-6 col-3" style="width: 18rem;">
+        <img src="images/courses-img4.jpg" class="card-img-top" alt="...">
+        <div class="price bg-blue">$50</div>
+        <div class="line bg-blue"></div>
+        <div class="card-body">
+          <h5 class="card-title german">English</h5>
+          <p class="card-subtitle"><i class="fa-regular fa-calendar"></i> Age 5 to 12 years</p>
+          <p class="card-subtitle"><i class="fa-regular fa-clock"></i> 9.00AM - 12.00AM</p>
+          <p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <a href="www.whatsapp.com" class="btn btn-4"><i class="fa-solid fa-phone"></i> <span>ƏLAQƏ SAXLA</span></a>
+        </div>
+      </div>
+
+      <div class="card col-lg-3 col-md-3 col-12" style="width: 18rem;">
+        <img src="images/courses-img5.jpg" class="card-img-top" alt="">
+        <div class="price bg-purple">$50</div>
+        <div class="line bg-purple"></div>
+        <div class="card-body">
+          <h5 class="card-title english">Kimya</h5>
+          <p class="card-subtitle"><i class="fa-regular fa-calendar"></i> Age 5 to 12 years</p>
+          <p class="card-subtitle"><i class="fa-regular fa-clock"></i> 9.00AM - 12.00AM</p>
+          <p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <a href="www.whatsapp.com" class="btn btn-1"><i class="fa-solid fa-phone"></i> <span>ƏLAQƏ SAXLA</span></a>
+        </div>
+      </div>
+    
+      <div class="card col-lg-3 col-md-3 col-12" style="width: 18rem;">
+        <img src="images/courses-img6.jpg" class="card-img-top" alt="...">
+        <div class="price bg-green">$50</div>
+        <div class="line bg-green"></div>
+        <div class="card-body">
+          <h5 class="card-title azerbaijani">Biologiya</h5>
+          <p class="card-subtitle"><i class="fa-regular fa-calendar"></i> Age 5 to 12 years</p>
+          <p class="card-subtitle"><i class="fa-regular fa-clock"></i> 9.00AM - 12.00AM</p>
+          <p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <a href="www.whatsapp.com" class="btn btn-2"><i class="fa-solid fa-phone"></i> <span>ƏLAQƏ SAXLA</span></a>
+        </div>
+      </div>
+    
+      <div class="card col-lg-3 col-md-3 col-12" style="width: 18rem;">
+        <img src="images/courses-img7.jpg" class="card-img-top" alt="...">
+        <div class="price bg-red">$50</div>
+        <div class="line bg-red"></div>
+        <div class="card-body">
+          <h5 class="card-title russian">Fizika</h5>
+          <p class="card-subtitle"><i class="fa-regular fa-calendar"></i> Age 5 to 12 years</p>
+          <p class="card-subtitle"><i class="fa-regular fa-clock"></i> 9.00AM - 12.00AM</p>
+          <p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <a href="www.whatsapp.com" class="btn btn-3"><i class="fa-solid fa-phone"></i> <span>ƏLAQƏ SAXLA</span></a>
+        </div>
+      </div>
+
+      <div class="card col-lg-3 col-xs-12 col-sm-6 col-3" style="width: 18rem;">
+        <img src="images/courses-img8.jpg" class="card-img-top" alt="...">
+        <div class="price bg-blue">$50</div>
+        <div class="line bg-blue"></div>
+        <div class="card-body">
+          <h5 class="card-title german">Riyaziyyat</h5>
+          <p class="card-subtitle"><i class="fa-regular fa-calendar"></i> Age 5 to 12 years</p>
+          <p class="card-subtitle"><i class="fa-regular fa-clock"></i> 9.00AM - 12.00AM</p>
+          <p class="card-text">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.</p>
+          <a href="www.whatsapp.com" class="btn btn-4"><i class="fa-solid fa-phone"></i> <span>ƏLAQƏ SAXLA</span></a>
+        </div>
+      </div>
+
+    </div>
+    <div class="owl-buttons buttons">
+      <div class="owl-prev-1"><i class="fa-solid fa-arrow-left"></i></div>
+      <div class="owl-next-1"><i class="fa-solid fa-arrow-right"></i></div>
+    </div>
+  </div>
+</div>
+</div>
+
+  <!-- Exams -->
+
+  <div class="exams">
+    <div class="container">
+      <h1>İmtahanlar</h1>
+
+      <div class="exam-cards">
+      <div class="exams-card">
+        <div class="card" style="width: 18rem;" onclick="window.location.href = '/exams';">
+          <img src="images/exam-1.png" class="card-img-top" alt="exam-photo">
+          <div class="card-body">
+            <h5 class="card-title">İmtahan Tarixləri</h5>
+            <p class="card-text">İmtahan tarixlərini bilmək istəyirsinizsə zəhmət olmasa buraya basın.</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="exam-result-card">
+        <div class="card" style="width: 18rem;" onclick="window.location.href = '/result';">
+          <img src="images/exam-2.jpeg" class="card-img-top" alt="exam-photo">
+          <div class="card-body">
+            <h5 class="card-title">İmtahan Nəticələri</h5>
+            <p class="card-text">İmtahan nəticələrini bilmək istəyirsinizsə zəhmət olmasa buraya basın.</p>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+    <!-- Teachers -->
+
+<div id="teachers">
+<div class="teachers bg-purple">
+  <h1 id="teachers-title">Müəllimlərimizlə Tanış Olun!</h1>
+  <div class="owl-carousel carousel-2">
+    <div class="item">
+      <div class="teacher-1 teacher">
+        <div class="image">
+        <img src="images/avator-img1.jpg" alt="img-1" height="150px">
+      </div>
+        <h5>Wanda Nara</h5>
+        <p>English Teacher</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="teacher-1 teacher">
+        <div class="image">
+        <img src="images/avator-img2.jpg" alt="img-1" height="150px">
+      </div>
+        <h5>Sarah Max</h5>
+        <p>German Teacher</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="teacher-1 teacher">
+        <div class="image">
+        <img src="images/avator-img3.jpg" alt="img-1" height="150px">
+      </div>
+        <h5>Done Joe</h5>
+        <p>Azerbaijani Teacher</p>
+      </div>
+    </div>
+    <div class="item">
+      <div class="teacher-1 teacher">
+        <div class="image">
+        <img src="images/avator-img4.jpg" alt="img-1" height="150px">
+      </div>
+        <h5>Amanda Smith</h5>
+        <p>Russian Teacher</p>
+      </div>
+    </div>
+</div>
+<div class="owl-buttons">
+    <div class="owl-prev-2"><i class="fa-solid fa-arrow-left"></i></div>
+    <div class="owl-next-2"><i class="fa-solid fa-arrow-right"></i></div>
+</div>
+</div>
+</div>
+
+  <!-- Succesful Students -->
+
+  <div id="successful-students">
+  <div class="successful-students">
+    <div class="container">
+    <h1>Uğurlarımız!</h1>
+    <div class="students">
+      <div class="student-1">
+        <div class="card col-lg-3 col-md-3 col-12" style="width: 18rem;">
+          <img src="images/successful-student-1.png" class="card-img-top" alt="...">
+          <div class="line bg-yellow"></div>
+          <div class="card-body">
+            <h5 class="card-title">Bill Gates</h5>
+            <p class="card-subtitle"><i class="fa-solid fa-medal"></i> 695 points</p>
+            <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          </div>
+        </div>
+    </div>
+    <div class="student-2">
+      <div class="card col-lg-3 col-md-3 col-12" style="width: 18rem;">
+        <img src="images/successful-student-2.jpg" class="card-img-top" alt="...">
+        <div class="line bg-green"></div>
+        <div class="card-body">
+          <h5 class="card-title">Elon Musk</h5>
+          <p class="card-subtitle"><i class="fa-solid fa-medal"></i> 699 points</p>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+        </div>
+      </div>
+  </div>
+  <div class="student-3">
+    <div class="card col-lg-3 col-md-3 col-12" style="width: 18rem;">
+      <img src="images/successful-student-3.jpg" class="card-img-top" alt="...">
+      <div class="line bg-blue"></div>
+      <div class="card-body">
+        <h5 class="card-title">Steve Jobs</h5>
+        <p class="card-subtitle"><i class="fa-solid fa-medal"></i> 700 points</p>
+        <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+      </div>
+    </div>
+</div>
+</div>
+  </div>
+</div>
+</div>
+
+<!-- Footer Section -->
+
+<div class="footer-section">
+<div class="container-fluid">
+  <div id="colors-bar">
+      <div class="row">
+          <div class="col color-bar bg-yellow d-none d-lg-block"></div>
+          <div class="col color-bar bg-green d-none d-lg-block"></div>
+          <div class="col color-bar bg-red d-none d-lg-block"></div>
+          <div class="col color-bar bg-blue d-none d-lg-block"></div>
+          <div class="col color-bar bg-purple d-none d-lg-block"></div>
+          <div class="col color-bar bg-pink d-none d-lg-block"></div>
+          <div class="col color-bar bg-yellow"></div>
+          <div class="col color-bar bg-green"></div>
+          <div class="col color-bar bg-red"></div>
+          <div class="col color-bar bg-blue"></div>
+          <div class="col color-bar bg-purple"></div>
+          <div class="col color-bar bg-pink"></div>
+      </div>
+  </div>
+</div>
+
+<div class="footer">
+  <div class="container">
+      <div class="row">
+        <div class="footer-about col-lg-4 col-md-4 col-sm-4 col-12">
+          <h1>Logo</h1>
+          <p>Excepteur sint occaecat cupidatat non proident, sunt in culpa officia.Lorem ipsum dolor sit amet.</p>
+          <p>consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+        </div>
+        <div class="links col-lg-4 col-md-4 col-sm-4 col-12">
+          <h1>Faydalı Linklər</h1>
+          <p><a href="#"><i class="fa-solid fa-angles-right"></i> Əsas Səhifə</a></p>
+          <p><a href="/result"><i class="fa-solid fa-angles-right"></i> Nəticələr</a></p>
+          <p><a href="#successful-students"><i class="fa-solid fa-angles-right"></i> Uğurlarımız</a></p>
+          <p><a href="#courses"><i class="fa-solid fa-angles-right"></i> Kurslarımız</a></p>
+        </div>
+        <div class="footer-courses col-lg-4 col-md-4 col-sm-4 col-12">
+          <h1>Kurslarımız</h1>
+          <p><i class="fa-solid fa-angles-right"></i> English</p>
+          <p><i class="fa-solid fa-angles-right"></i> Azerbaijani</p>
+          <p><i class="fa-solid fa-angles-right"></i> German</p>
+          <p><i class="fa-solid fa-angles-right"></i> Russian</p>
+        </div>
+    </div>
+  </div>
+</div>
+ 
+
+  <!-- Copy Right -->
+  <div class="copyright">
+    <div class="container">
+      <div class="row">
+        <div class="col-sm-7 col-xs-12 order-1 order-md-0">
+          <p class="copyright-text"> © <span id="copy-year">2023</span> Copyright Salman Sadikhzade</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+
+    <!-- JQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
+
+    <!-- Owl Carousel -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+
+    <!-- JavaScript -->
+    <script src="index.js"></script>
+</body>
+</html>
